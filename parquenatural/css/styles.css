@@ -34,3 +34,35 @@ h4 {
 body {
     margin: 0 auto  ;
 }
+
+.button,
+.inicio-button {
+    text-align: center;
+    padding: 7px 15px;
+    margin: 5px 0;
+    list-style-type: none;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.inicio-button {
+    background-color: blanchedalmond;
+}
+
+.button {
+    background-color: rgb(94, 223, 94);
+}
+
+.button:hover {
+    background-color: rgb(73, 184, 73);
+}
+
+.inicio-button:hover {
+    background-color: rgb(233, 213, 184);
+}
+
+.button a,
+.inicio-button a {
+    text-decoration: none;
+    color: black;
+}
